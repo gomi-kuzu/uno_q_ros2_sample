@@ -11,7 +11,6 @@ from rclpy.node import Node
 from std_msgs.msg import Float32
 
 from arduino.app_utils.bridge import call
-from arduino.app_utils import App
 
 
 # Define the bridge function to get temperature from MCU
